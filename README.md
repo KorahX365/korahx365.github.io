@@ -46,20 +46,8 @@
 </p>
 <h1></h1>
 
-Tournament system meant to be easy to use. Bracket is written in async Python (with
 [FastAPI](https://fastapi.tiangolo.com)) and [Next.js](https://nextjs.org/) as frontend using the
 [Mantine](https://mantine.dev/) library.
-
-It has the following features:
-- Supports **single elimination, round-robin and swiss** formats.
-- **Build your tournament structure** with multiple stages that can have multiple groups/brackets in
-  them.
-- **Drag-and-drop matches** to different courts or reschedule them to another start time.
-- Various **dashboard pages** are available that can be presented to the public, customized with a
-  logo.
-- Create/update **teams**, and add players to **teams**.
-- Create **multiple clubs**, with **multiple tournaments** per club.
-- **Swiss tournaments** can be handled dynamically, with automatic scheduling of matches.
 
 <img alt="" src="docs/static/img/bracket-screenshot-design.png" width="100%" />
 
